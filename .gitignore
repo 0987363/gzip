@@ -1,0 +1,6 @@
+*/Godeps/*
+!*/Godeps/Godeps.json
+
+coverage.out
+dump.rdb
+*.swp
