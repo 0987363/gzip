@@ -71,7 +71,7 @@ func shouldCompress(req *http.Request) bool {
 	}
 
 	switch extension {
-	case ".png", ".gif", ".jpeg", ".jpg", ".bin":
+	case ".png", ".gif", ".jpeg", ".jpg", ".bin", ".pbt", ".mvt":
 		return false
 	default:
 		return true
